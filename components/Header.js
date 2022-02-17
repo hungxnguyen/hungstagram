@@ -6,12 +6,12 @@ import {
 } from "@heroicons/react/outline";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
-import { useRecoilState } from "recoil";
-import { modalState } from "../atoms/modalAtom";
+// import { useRecoilState } from "recoil";
+// import { modalState } from "../atoms/modalAtom";
 
 function Header() {
   const { data: session } = useSession();
-  const [isOpen, setIsOpen] = useRecoilState(modalState);
+  // const [isOpen, setIsOpen] = useRecoilState(modalState);
   const router = useRouter();
 
   const handleRouteToHome = () => {
@@ -75,7 +75,7 @@ function Header() {
 
               <img
                 src="/images/newpost.svg"
-                onClick={() => setIsOpen(true)}
+                // onClick={() => setIsOpen(true)}
                 alt="explore icon"
                 className="navBtn"
               />
