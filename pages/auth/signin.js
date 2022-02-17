@@ -22,7 +22,9 @@ function signIn({ providers }) {
               <button
                 className="bg-blue-500 rounded-lg p-3 text-white shadow-md md:text-sm"
                 onClick={() =>
-                  SignIntoProvider(provider.id, { callbackUrl: "/" })
+                  SignIntoProvider(provider.id, {
+                    callbackUrl: "https://hungstagram.vercel.app/",
+                  })
                 }
               >
                 Sign in with {provider.name}
