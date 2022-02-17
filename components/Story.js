@@ -12,5 +12,3 @@ function Story({ img, username }) {
 }
 
 export default Story;
-
-// bg-gradient-to-br from-purple-900 to-pink-700
