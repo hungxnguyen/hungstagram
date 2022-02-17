@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply h-7 heroicon-stroke-w-1.2 cursor-pointer hover:scale-110 transition-all duration-150 ease-out;
+  }
+
+  .navBtn {
+    @apply hidden h-6 w-6 md:inline-flex cursor-pointer hover:scale-110 transition-all duration-150 heroicon-stroke-w-1.6;
+  }
+  
+  .heroicon-stroke-w-0\.4 > path {
+    stroke-width: 0.4;
+  }
+  
+  .heroicon-stroke-w-0\.8 > path {
+    stroke-width: 0.8;
+  }
+  
+  .heroicon-stroke-w-1 > path {
+    stroke-width: 1;
+  }
+  
+  .heroicon-stroke-w-1\.2 > path {
+    stroke-width: 1.2;
+  }
+  
+  .heroicon-stroke-w-1\.6 > path {
+    stroke-width: 1.6;
+  }
+
+  .heroicon-stroke-w-2\.5 > path {
+    stroke-width: 2.5;
+  }
+
+  
+}
+
+
