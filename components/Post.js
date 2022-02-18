@@ -11,7 +11,7 @@ import {
 
 function Post({ id, username, userImg, img, caption }) {
   return (
-    <div className="bg-white my-0 border-t md:my-6 md:border md:rounded-md">
+    <div className="bg-white my-4 md:border md:border-gray-300 md:my-7 md:rounded-md">
       {/* Head  */}
       <div className="p-3 flex items-center ">
         <img
@@ -31,7 +31,7 @@ function Post({ id, username, userImg, img, caption }) {
       />
 
       <div className="flex justify-between px-3.5 pt-4">
-        <div className="flex space-x-2">
+        <div className="flex space-x-3">
           <HeartIcon className="btn" />
           <ChatIcon className="btn" />
           <PaperAirplaneIcon className="btn" />
@@ -47,7 +47,7 @@ function Post({ id, username, userImg, img, caption }) {
       </div>
 
       {/* Comments  */}
-      <div className="flex px-3.5 py-1.5 border-t items-center">
+      <div className="flex px-3.5 pb-3 md:py-2 md:border-t items-center">
         <form className="flex flex-1 items-center ">
           <EmojiHappyIcon className="btn" />
           <input

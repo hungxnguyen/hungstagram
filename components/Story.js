@@ -6,7 +6,7 @@ function Story({ img, username }) {
         src={img}
         alt="profile pic"
       />
-      <p className="text-xs w-16 text-center truncate mt-2">{username}</p>
+      <p className="text-xs w-16 text-center truncate mt-1">{username}</p>
     </div>
   );
 }

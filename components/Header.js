@@ -19,22 +19,23 @@ function Header() {
   };
 
   return (
-    <div className="bg-white sticky top-0 shadow z-50 py-1">
+    <div className="bg-white sticky top-0 border-b border-gray-300 z-50 py-3 md:py-0">
       <div className="flex justify-between max-w-5xl mx-5 lg:mx-auto">
         {/* Left Side -- IG logo/icon */}
         <div
           onClick={handleRouteToHome}
-          className="relative hidden lg:inline-grid my-3 w-36 cursor-pointer"
+          className="relative hidden lg:inline-grid my-3.5 w-36 cursor-pointer"
         >
           <Image src="/images/hungstagram-logo.png" layout="fill" />
         </div>
         <div
           onClick={handleRouteToHome}
-          className="relative w-9 lg:hidden flex-shrink-0 cursor-pointer"
+          className="relative w-9 lg:hidden flex-shrink-0 cursor-pointer flex items-center "
         >
           <Image
             src="/images/insta_mobile_logo.png"
-            layout="fill"
+            width={40}
+            height={40}
             objectFit="contain"
           />
         </div>
