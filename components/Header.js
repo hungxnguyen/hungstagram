@@ -55,7 +55,7 @@ function Header() {
         </div>
 
         {/* Right Side -- icons */}
-        <div className="flex items-center space-x-2.5 md:space-x-6">
+        <div className="flex items-center space-x-6">
           <img
             src="/images/home.svg"
             onClick={handleRouteToHome}
