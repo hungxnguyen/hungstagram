@@ -41,8 +41,8 @@ function Header() {
         </div>
 
         {/* Middle -- search bar */}
-        <div className="w-1/2 lg:w-1/3">
-          <div className="relative my-1.5 p-1 rounded-md">
+        <div className="hidden md:inline-flex md:w-1/4">
+          <div className="relative my-1.5 p-1 rounded-md w-full">
             <div className="absolute inset-y-0 pl-3 flex items-center pointer-events-none">
               <SearchIcon className="h-4 w-4 text-gray-500" />
             </div>
@@ -63,7 +63,7 @@ function Header() {
             alt="explore icon"
           />
 
-          <MenuIcon className="h-6 md:hidden cursor-pointer heroicon-stroke-w-2.5" />
+          {/* <MenuIcon className="h-6 md:hidden cursor-pointer heroicon-stroke-w-2.5" /> */}
 
           {session ? (
             <>
