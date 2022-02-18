@@ -19,8 +19,8 @@ function Feed() {
       </section>
 
       {session && (
-        <section className="hidden xl:inline-grid col-span-1">
-          <div className="fixed top-20">
+        <section className="xl:inline-grid col-span-1">
+          <div className="fixed mt-10 ml-8 w-[19.3rem]">
             <MiniProfile />
             <Suggestions />
           </div>

@@ -14,7 +14,7 @@ function Suggestions() {
   }, []);
 
   return (
-    <div className="mt-4 ml-10">
+    <div className="mt-4">
       <div className="flex justify-between mb-3">
         <p className="text-gray-500 text-sm font-semibold">
           Suggestions For You

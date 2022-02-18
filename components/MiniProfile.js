@@ -10,7 +10,7 @@ function Miniprofile() {
   };
 
   return (
-    <div className="flex items-center justify-between mt-7 ml-10">
+    <div className="flex items-center justify-between ">
       <img
         src={session?.user?.image}
         alt="profile pic"
