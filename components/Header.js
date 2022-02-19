@@ -59,7 +59,7 @@ function Header() {
           <img
             src="/images/home.svg"
             onClick={handleRouteToHome}
-            className="navBtn"
+            className="navBtn hidden md:inline-flex"
             alt="explore icon"
           />
 
