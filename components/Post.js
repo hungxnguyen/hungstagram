@@ -16,7 +16,7 @@ function Post({ id, username, userImg, img, caption }) {
       <div className="p-3 flex items-center ">
         <img
           src={userImg}
-          className="rounded-full h-9 w-9 mr-2 p-[1.5px] border-red-500 border-[2.5px] object-contain cursor-pointer hover:scale-110 transition transform duration-200 ease-out"
+          className="rounded-full h-9 w-9 mr-2 p-[1.5px] border-red-500 border-[2px] object-contain cursor-pointer hover:scale-110 transition transform duration-200 ease-out"
           alt="user image"
         />
         <p className="text-sm font-semibold flex-1">{username}</p>
