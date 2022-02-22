@@ -55,7 +55,9 @@ function Header() {
         </div>
 
         {/* Right Side -- icons */}
-        <div className="flex items-center space-x-6">
+        <div
+          className={`flex items-center space-x-6 ${!session && "space-x-4"}`}
+        >
           <img
             src="/images/home.svg"
             onClick={handleRouteToHome}
@@ -101,7 +103,9 @@ function Header() {
               />
             </>
           ) : (
-            <button onClick={signIn}>Sign In</button>
+            <button onClick={signIn} className="text-lg">
+              Sign In
+            </button>
           )}
         </div>
       </div>
