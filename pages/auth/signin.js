@@ -8,15 +8,14 @@ function signIn({ providers }) {
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen -mt-36 text-center">
         <img
-          src="/images/insta_logo.png"
-          className="w-64"
+          src="/images/hungstagram-logo.png"
+          className="w-60 md:w-64"
           alt="Instagram logo"
         />
-        <p className="text-sm italic ">
-          This is NOT a real app, it is built soley for entertainment. <br />{" "}
-          But please DO try this at home.
+        <p className="text-sm italic mt-1">
+          This app is built soley for entertainment.
         </p>
-        <div className="mt-10">
+        <div className="mt-8 md:mt-10">
           {Object.values(providers).map((provider) => (
             <div key={provider.name}>
               <button
